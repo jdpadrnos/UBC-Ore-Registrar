@@ -26,5 +26,6 @@ public class References {
 												"after:TConstruct;" +
 												"after:bluepower;" +
                                                 "after:Artifice;" +
-                                                "after:evilcraft";
+                                                "after:evilcraft;" +
+                                                "after:GalacticraftCore";
 }

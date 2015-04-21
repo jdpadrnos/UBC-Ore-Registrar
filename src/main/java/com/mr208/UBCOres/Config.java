@@ -30,6 +30,7 @@ public class Config {
 	public static boolean BPOres;
     public static boolean ArtifOres;
     public static boolean EvilOres;
+    public static boolean GalacticOres;
 
     public static void init(File configFile)
     {
@@ -61,7 +62,8 @@ public class Config {
 		//TinkOres = config.getBoolean("Tinkers Construct Support","Mod Support", true, "Enable this to have Copper, Tin, and Aluminum spawn with UB Textures. Does not affect Ore Gravel.");
 		BPOres = config.getBoolean("Blue Power Support","Mod Support", true, "Enable this to have Teslatite, Copper, Silver, Zinc, Tungsten, Ruby, Sapphire, and Amethyst spawn with UB Textures");
         ArtifOres = config.getBoolean("Artifice Support","Mod Support",true,"Enable this to have Artifce's Ender and Sulfur spawn with UB Textures");
-        EvilOres = config.getBoolean("EvilCraft Support","Mod Support",true,"Enable this to have EvilCraft's Dark Ore spawn with UB Textures."
+        EvilOres = config.getBoolean("EvilCraft Support","Mod Support",true,"Enable this to have EvilCraft's Dark Ore spawn with UB Textures.");
+        GalacticOres = config.getBoolean("GalactiCraft Support","Mod Support",true,"Enable this to have GalactiCraft's Aluminium, Copper, Silicon, and Tin generate with UB textures.");
 
         if (config.hasChanged())
         {

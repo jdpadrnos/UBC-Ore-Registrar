@@ -13,6 +13,7 @@ Currently supports:
 * Farlanders
 * Flaxbeard's Steam Power
 * Forestry
+* GalactiCraft Core (also Moon & Mars)
 * HarvestCraft
 * IC2
 * Magical Crops

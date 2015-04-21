@@ -34,6 +34,7 @@ public static UBCOres instance;
 		if(Config.ForOres && Loader.isModLoaded("Forestry")) Mods.Forestry(event);
         if(Config.ArtifOres && Loader.isModLoaded("Artifice")) Mods.Artifice(event);
         if(Config.EvilOres && Loader.isModLoaded("evilcraft")) Mods.EvilCraft(event);
+        if(Config.GalacticOres && Loader.isModLoaded("GalacticraftCore")) Mods.GalactiCraft(event);
 		//if(Config.TinkOres && Loader.isModLoaded("TConstruct")) Mods.TConstruct(event);
 
     }
