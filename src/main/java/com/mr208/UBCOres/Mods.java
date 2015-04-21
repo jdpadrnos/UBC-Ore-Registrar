@@ -31,6 +31,12 @@ public class Mods {
 		String NAMES[] = {"ruby","peridot","topaz", "tanzanite", "malachite", "sapphire", "amber"};
 		UBCHelper.registerModOresWithMeta("BiomesOPlenty", "gemOre", 0, 2, NAMES, event);
 	}
+    
+    public static void EvilCraft(FMLPreInitializationEvent event)
+	{
+		Block DarkOreBlock = GameRegistry.findBlock("evilcraft","darkOre");
+		UBCHelper.registerOreBlock(DarkOreBlock, 0, "darkOre", event);
+	}
 
 	public static void Factorization(FMLPreInitializationEvent event)
 	{

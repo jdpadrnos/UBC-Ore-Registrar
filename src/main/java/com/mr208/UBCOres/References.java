@@ -25,5 +25,6 @@ public class References {
 												"after:Forestry;" +
 												"after:TConstruct;" +
 												"after:bluepower;" +
-                                                "after:Artifice";
+                                                "after:Artifice;" +
+                                                "after:evilcraft";
 }

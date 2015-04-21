@@ -33,6 +33,7 @@ public static UBCOres instance;
         if(Config.AE2Ores && Loader.isModLoaded("appliedenergistics2")) Mods.AE2(event);
 		if(Config.ForOres && Loader.isModLoaded("Forestry")) Mods.Forestry(event);
         if(Config.ArtifOres && Loader.isModLoaded("Artifice")) Mods.Artifice(event);
+        if(Config.EvilOres && Loader.isModLoaded("evilcraft")) Mods.EvilCraft(event);
 		//if(Config.TinkOres && Loader.isModLoaded("TConstruct")) Mods.TConstruct(event);
 
     }

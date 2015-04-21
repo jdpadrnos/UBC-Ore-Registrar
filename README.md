@@ -8,6 +8,7 @@ Currently supports:
 * Big Reactors (INCOMPLETE)
 * Biomes O Plenty
 * BluePower
+* EvilCraft
 * Factorization
 * Farlanders
 * Flaxbeard's Steam Power
