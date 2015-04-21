@@ -3,6 +3,7 @@ Minecraft Mod and Add-on for Underground Biomes Construct.
 
 Currently supports:
 
+* Artifice (Ender and Sulfur)
 * Applied Energistics 2
 * Big Reactors (INCOMPLETE)
 * Biomes O Plenty

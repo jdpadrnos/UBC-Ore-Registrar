@@ -24,5 +24,6 @@ public class References {
                                                 "after:ProjRed|Exploration;" +
 												"after:Forestry;" +
 												"after:TConstruct;" +
-												"after:bluepower";
+												"after:bluepower;" +
+                                                "after:Artifice";
 }

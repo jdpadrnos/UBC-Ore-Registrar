@@ -12,6 +12,13 @@ public class Mods {
 		String[] NAMES = {"certus","certusCharged"};
 		UBCHelper.registerModOresWithoutMeta("appliedenergistics2",BLOCKS,NAMES, event);
 	}
+    
+    public static void Artifice(FMLPreInitializationEvent event)
+	{
+		String[] BLOCKS = {"tile.artifice.oreender","tile.artifice.oresulfur"};
+		String[] NAMES = {"ender","artificeSulfur"};
+		UBCHelper.registerModOresWithoutMeta("Artifice",BLOCKS,NAMES, event);
+	}
 
 	public static void BigReactors(FMLPreInitializationEvent event)
 	{

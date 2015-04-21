@@ -28,6 +28,7 @@ public class Config {
 	public static boolean ForOres;
 	//public static boolean TinkOres;
 	public static boolean BPOres;
+    public static boolean ArtifOres;
 
     public static void init(File configFile)
     {
@@ -58,6 +59,7 @@ public class Config {
 		ForOres = config.getBoolean("Forestry Support","Mod Support", true, "Enable this to have Apatite, Copper and Tin spawn with UB Textures.");
 		//TinkOres = config.getBoolean("Tinkers Construct Support","Mod Support", true, "Enable this to have Copper, Tin, and Aluminum spawn with UB Textures. Does not affect Ore Gravel.");
 		BPOres = config.getBoolean("Blue Power Support","Mod Support", true, "Enable this to have Teslatite, Copper, Silver, Zinc, Tungsten, Ruby, Sapphire, and Amethyst spawn with UB Textures");
+        ArtifOres = config.getBoolean("Artifice Support","Mod Support",true,"Enable this to have Artifce's Ender and Sulfur spawn with UB Textures");
 
         if (config.hasChanged())
         {
